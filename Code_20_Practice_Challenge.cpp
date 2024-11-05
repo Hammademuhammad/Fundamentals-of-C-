@@ -15,7 +15,7 @@ int main() {
     for(int q=0;q<3;q++){
         cout<<"Welcome to 5D Space and you are right now in 5D Space at q= "<<q<<endl;
     for (int r = 0; r < 3; r++) {
-        cout << "Welcome to 4D Space and you are right now in 4D Space at q= " << r << endl;
+        cout << "Welcome to 4D Space and you are right now in 4D Space at r= " << r << endl;
     int array1[3][3], array2[3][3], array3[3][3];
     cout<<"Arays are being prepared"<<endl;
     for (int i = 0; i < 3; i++) {
