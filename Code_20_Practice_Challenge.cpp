@@ -13,9 +13,9 @@ int main() {
 
     cout<<"A simplified Answer: "<<endl;
     for(int q=0;q<3;q++){
-        cout<<"Wekcome to 5D Space and you are right now in 5D Space at q= "<<q<<endl;
+        cout<<"Welcome to 5D Space and you are right now in 5D Space at q= "<<q<<endl;
     for (int r = 0; r < 3; r++) {
-        cout << "Wekcome to 4D Space and you are right now in 4D Space at q= " << r << endl;
+        cout << "Welcome to 4D Space and you are right now in 4D Space at q= " << r << endl;
     int array1[3][3], array2[3][3], array3[3][3];
     cout<<"Arays are being prepared"<<endl;
     for (int i = 0; i < 3; i++) {
@@ -70,7 +70,7 @@ int main() {
                 for (int j = 0; j < 3; j++) {
                     back[i][j] = array1[i][j]+ array2[i][j]+array3[i][j];
                     if(back[i][j]>=3){
-                        back[i][j]=back[i][j]+3;
+                        back[i][j]=back[i][j]%3;
                     }
                     cout<<back[i][j]<<" ";
                 }
